@@ -28,13 +28,13 @@ To update pandoc from time to time, use this command:
 
 > $ brew upgrade pandoc
 
-This will upgrade all installed formulae (as they are called) to the newest version.
-
 #### Linux
 
 On Linux, installing Pandoc is simple. Use the package manager to search for, and install Pandoc. The provided packages aren't always up-to-date, but they will work.
 
 ## Setup
+
+> bundle install
 
 > rake db:create
 
@@ -52,7 +52,7 @@ Finished .docx files are attempted to be launched on creation. Use Microsoft Wor
 
 Released under MIT license.
 
-Copyright 2019, Eldon Tyrell
+Copyright 2019, Brian Loomis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  name: MyString
+  address: MyString
+  worker: MyString
+  date: 2019-03-12
+  nature: MyString
+
+two:
+  id: 
+  name: MyString
+  address: MyString
+  worker: MyString
+  date: 2019-03-12
+  nature: MyString

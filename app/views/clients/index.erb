@@ -1,0 +1,13 @@
+<h3><%= link_to "Clients", trestle_path %></h3>
+<% @clients.each do |client| %>
+  <%= simple_form_for client do |f| %>
+    <%= f.input :name, :input_html => {:class => "wideform"} %>
+    <%= f.input :business, :input_html => {:class => "wideform"} %>
+    <%= f.input :signatory, :input_html => {:class => "wideform"} %>
+    <%= f.input :title, :input_html => {:class => "wideform"} %>
+    <label for="client_generate">Generate Docs</label>
+    <input name="client[generate]" type="checkbox" id="client_generate">
+    <%= f.button :submit, "Update Client" %>
+  <% end %>
+  <hr>
+<% end %>
